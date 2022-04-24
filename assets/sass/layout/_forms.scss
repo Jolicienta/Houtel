@@ -1,0 +1,40 @@
+.container {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, .7);
+    padding: 10px 30px 15px 30px;
+    border-radius: 5px;
+    width: 80vw;
+    text-align: center;
+    font-family: $text;
+    font-size: 12px;
+
+    .mb-3 {
+        text-align: left;
+        margin-bottom: 5px !important;
+    }
+
+    .form-label {
+        color: $form-text;
+    }
+
+    .form-select, ::placeholder {
+        color: $form-holder;
+    }
+
+    select:focus {
+        outline: none;
+    }
+
+    button {
+        width: 120px;
+        line-height: 20px;
+        font-weight: $semibold;
+        background-color: $default;
+        border: none;
+    }
+
+    button:hover {
+        background-color: $positive;
+    }
+}
